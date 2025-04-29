@@ -1,6 +1,6 @@
-<?php include_once "../include/header.php";
+<?php include_once "../controllers/header.php";
 
-require_once '../clases/EvaluadorDeNumero.php';
+require_once '../models/EvaluadorDeNumero.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['numero'])) {
     $numero = floatval($_POST['numero']);
@@ -25,4 +25,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['numero'])) {
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../include/footer.php"; ?>
+<?php include_once "../controllers/footer.php"; ?>

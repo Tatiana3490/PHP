@@ -1,6 +1,6 @@
-<?php include_once "../include/header.php";
+<?php include_once "../controllers/header.php";
 
-require_once '../clases/EmojiGenerator.php';
+require_once '../models/EmojiGenerator.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['quantity'])) {
     $quantity = (int)$_POST['quantity'];
@@ -26,4 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['quantity'])) {
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../include/footer.php"; ?>
+<?php include_once "../controllers/footer.php"; ?>

@@ -1,6 +1,6 @@
-<?php include_once "../include/header.php";
+<?php include_once "../controllers/header.php";
 
-require_once '../clases/GradeEvaluator.php';
+require_once '../models/GradeEvaluator.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['grade'])) {
     $grade = (float)$_POST['grade'];
@@ -26,4 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['grade'])) {
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../include/footer.php"; ?>
+<?php include_once "../controllers/footer.php"; ?>
