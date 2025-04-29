@@ -1,6 +1,6 @@
-<?php include_once "../controllers/header.php";
+<?php include_once "../include/header.php";
 
-require_once '../models/WordFilter.php';
+require_once '../clases/WordFilter.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['words']) && isset($_POST['letter'])) {
     $words = explode(',', $_POST['words']);
@@ -28,4 +28,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['words']) && isset($_P
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../controllers/footer.php"; ?>
+<?php include_once "../include/footer.php"; ?>

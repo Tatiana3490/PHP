@@ -10,7 +10,7 @@ class EmojiGenerator
     ];
 
     public function generateEmojiSequence($quantity) {
-        $quantity = max(1, min(20, $quantity)); // Limitar entre 1 y 20
+        $quantity = max(1, min(20, $quantity)); // para limitar entre 1 y 20
         $sequence = [];
 
         for ($i = 0; $i < $quantity; $i++) {

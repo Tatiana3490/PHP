@@ -1,6 +1,6 @@
-<?php include_once "../controllers/header.php";
+<?php include_once "../include/header.php";
 
-require_once '../models/AsteriskGenerator.php';
+require_once '../clases/AsteriskGenerator.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['length'])) {
     $length = (int)$_POST['length'];
@@ -26,5 +26,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['length'])) {
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../controllers/footer.php"; ?>
+<?php include_once "../include/footer.php"; ?>
 

@@ -1,7 +1,6 @@
 <?php
 
 class EvaluadorDeNumero {
-
     // Método para evaluar el número
     public function evaluadorDeNumero($numero) {
         if ($numero > 0){
@@ -14,5 +13,5 @@ class EvaluadorDeNumero {
         }
     }
 
-
 }
+?>

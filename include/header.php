@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AA 1ª Evaluación DAM</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -36,19 +37,19 @@
                     <a class="nav-link active" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Teoría</a>
+                    <a class="nav-link" href="#">Teoría</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Ejercicios</a>
+                    <a class="nav-link" href="#">Ejercicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Alumno</a>
+                    <a class="nav-link" href="#">Alumno</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="container mt-4">
-    <!-- Fin header -->
+
 
 

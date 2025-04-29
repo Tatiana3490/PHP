@@ -1,6 +1,6 @@
-<?php include_once "../controllers/header.php";
+<?php include_once "../include/header.php";
 
-require_once '../models/SaladGenerator.php';
+require_once '../clases/SaladGenerator.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ingredients'])) {
     $ingredients = $_POST['ingredients'];
@@ -26,4 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ingredients'])) {
     <button type="submit">Volver al índice</button>
 </form>
 
-<?php include_once "../controllers/footer.php"; ?>
+<?php include_once "../include/footer.php"; ?>
